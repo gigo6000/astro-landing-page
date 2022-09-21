@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+---
+
+<Layout title="Frontend Mentor | Intro section with dropdown navigation.">
+	<main class="container">
+    <Header client:only="react"/>
+	  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[7rem] lg:pt-5 text-center lg:text-left max-w-[1024px] mx-auto">
+  		<div class="flex flex-col lg:flex lg:flex-row items-center relative z-0">
+  		  <div>
+					<h1 class="text-almost-black text-4xl lg:text-[5rem] lg:leading-[5rem] font-bold">Make remote work</h1>
+  				<p class="py-5 lg:py-[4rem] lg:text-xl">
+  					Get your team in sync, no matter your location. Streamline processes, 
+  					create team rituals, and watch productivity soar.
+  				</p>
+					<button class="text-almost-white bg-almost-black rounded-xl px-5 py-2 border border-almost-black hover:bg-almost-white hover:text-almost-black lg:text-xl lg:py-3 lg:px-8">
+  						Learn more
+					</button>
+  		  </div>
+  		  <ul class="lg:absolute bottom-[-1rem] flex justify-center mt-[3rem] space-x-9 items-center">
+  		  	<li><img src="images/client-databiz.svg" alt="" width="110"></li>
+  		  	<li><img src="images/client-audiophile.svg" alt="" width="70"></li>
+  		  	<li><img src="images/client-meet.svg" alt="" width="90"></li>
+  		  	<li><img src="images/client-maker.svg" alt="" width="90"></li>
+  		  </ul>
+  		</div>
+  		<div class="order-first lg:order-last">
+	  		<img class="lg:hidden mb-9"  src="images/image-hero-mobile.png" alt="Hero">
+	  		<img class="hidden lg:block"  src="images/image-hero-desktop.png" alt="Hero">
+  		</div>
+		</div>
+	</main>
+</Layout>
