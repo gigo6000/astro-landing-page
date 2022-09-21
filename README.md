@@ -1,35 +1,8 @@
-# Welcome to [Astro](https://astro.build)
+# 🚀 Astro Landing Page with Tailwind CSS and React - Frontend Mentor Challenge
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+<img width="1607" alt="astro-landing-page-frontend-mentor-expanded" src="https://user-images.githubusercontent.com/387648/191624093-83874208-8b3c-4320-9d9e-fe62302d6295.png">
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+<img width="947" alt="astro-landing-page-frontend-mentor-mobile-expanded" src="https://user-images.githubusercontent.com/387648/191624221-353cd008-c079-4008-a619-efedcbc55228.png">
 
 ## 🧞 Commands
 
