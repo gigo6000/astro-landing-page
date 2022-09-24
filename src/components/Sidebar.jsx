@@ -51,7 +51,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                             <img
                               src="images/icon-calendar.svg"
                               className="inline w-4 mr-3"
-                              alt="Todo List Icon"
+                              alt="Calendar Icon"
                             />
                             Calendar
                           </li>
@@ -59,7 +59,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                             <img
                               src="images/icon-reminders.svg"
                               className="inline w-4 mr-3"
-                              alt="Todo List Icon"
+                              alt="Reminders Icon"
                             />
                             Reminders
                           </li>
@@ -67,7 +67,7 @@ const Sidebar = ({ open = false, setOpen }) => {
                             <img
                               src="images/icon-planning.svg"
                               className="inline w-4 mr-3"
-                              alt="Todo List Icon"
+                              alt="Planning Icon"
                             />
                             Planning
                           </li>

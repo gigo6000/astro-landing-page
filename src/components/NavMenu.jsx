@@ -51,7 +51,7 @@ const NavMenu = () => {
                       <img
                         src="images/icon-calendar.svg"
                         className="inline w-4 mr-3"
-                        alt="Todo List Icon"
+                        alt="Calendar Icon"
                       />
                       Calendar
                     </a>
@@ -68,7 +68,7 @@ const NavMenu = () => {
                       <img
                         src="images/icon-reminders.svg"
                         className="inline w-4 mr-3"
-                        alt="Todo List Icon"
+                        alt="Reminders Icon"
                       />
                       Reminders
                     </a>
@@ -85,7 +85,7 @@ const NavMenu = () => {
                       <img
                         src="images/icon-planning.svg"
                         className="inline w-4 mr-3"
-                        alt="Todo List Icon"
+                        alt="Planning Icon"
                       />
                       Planning
                     </a>
