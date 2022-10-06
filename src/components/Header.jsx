@@ -19,6 +19,7 @@ const Header = () => {
             onClick={() => setOpen(true)}
             aria-expanded={open}
             aria-controls="sidebar"
+            aria-label="Open Menu"
           >
             <img
               className="block lg:hidden"
@@ -26,6 +27,7 @@ const Header = () => {
               alt="Menu"
             />
           </button>
+          <Sidebar open={open} setOpen={setOpen} />
           <div className="hidden lg:flex lg:space-x-10 lg:items-center">
             <div className="hover:text-almost-black cursor-pointer">Login</div>
             <div>
@@ -36,7 +38,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Sidebar open={open} setOpen={setOpen} />
     </header>
   );
 };
