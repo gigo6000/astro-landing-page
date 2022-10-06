@@ -15,15 +15,20 @@ const Sidebar = ({ open = false, setOpen }) => {
           leaveTo="translate-x-full"
         >
           <div
+            id="sidebar"
             className={`fixed right-0 top-0 w-[250px] h-screen bg-almost-white pt-20 p-8 z-50`}
           >
-            <a href="#" onClick={() => setOpen(false)}>
+            <button
+              onClick={() => setOpen(false)}
+              aria-expanded={open}
+              aria-controls="sidebar"
+            >
               <img
                 className="absolute top-5 right-5"
                 src="images/icon-close-menu.svg"
                 alt="Close Menu"
               />
-            </a>
+            </button>
             <ul className="flex flex-col space-y-3">
               <li>
                 <Disclosure>
